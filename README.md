@@ -1,70 +1,111 @@
-# Getting Started with Create React App
+# Work Hours Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A **React frontend application** to track your daily work hours, pauses, and time off, with weekly and monthly summaries. Perfect for individuals who want to monitor if they’re meeting their target 40-hour work week. Fully frontend, with **localStorage persistence** and **CSV export**.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+* **Weekly Calendar View**: Displays all weekdays (Monday–Friday) for the current month.
+* **Daily Entries**:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    * Work start and end times
+    * Multiple pauses per day
+    * Optional time off hours
+    * Mark full day as vacation
+* **Editable**: Update any entry without deleting it.
+* **Weekly & Monthly Analytics**:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    * Weekly total hours
+    * Days worked
+    * Average hours per day
+    * Total time off
+    * Visual indicators for weekly targets
+* **CSV Export**: Download a full monthly report for your records.
+* **Local Storage Persistence**: All data is saved in the browser and stays across page reloads.
+* **Clean UI**: Minimal, modern design focused on usability.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Screenshots
 
-### `npm run build`
+*(Add screenshots of your app here — weekly calendar, daily entry, analytics, export button, etc.)*
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Clone the repository**
 
-### `npm run eject`
+```bash
+git clone https://github.com/your-username/work-hours-tracker.git
+cd work-hours-tracker
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. **Install dependencies**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. **Run the development server**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm start
+```
 
-## Learn More
+The app will be available at `http://localhost:3000`.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Usage
 
-### Code Splitting
+1. Navigate to the current month using the **arrow buttons** or click **Today** to return to the current month.
+2. Fill in your **start and end work times** for each weekday.
+3. Add **pauses** and **time off hours** as needed.
+4. Mark a **full day off** if you are on vacation.
+5. The app will calculate:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    * Daily worked hours
+    * Weekly totals and progress toward 40h
+    * Monthly totals, average hours per day, and time off
+6. Click **Download Excel** to export a CSV report of the current month.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Technologies
 
-### Making a Progressive Web App
+* **React** (JS)
+* **CSS** for styling
+* Fully frontend — no backend required
+* **LocalStorage** for data persistence
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## Folder Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```
+work-hours-tracker/
+├─ public/
+├─ src/
+│  ├─ App.js          # Main React component
+│  ├─ App.css         # Styling
+│  └─ index.js        # React entry point
+├─ package.json
+└─ README.md
+```
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Future Improvements
 
-### `npm run build` fails to minify
+* Add **drag & drop** for quick adjustments of times
+* Show **visual bar chart** of hours per day/week
+* Add **holiday and weekend handling** automatically
+* Allow **customizable weekly hour targets**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## License
+
+MIT License – see [LICENSE](LICENSE) file for details.
