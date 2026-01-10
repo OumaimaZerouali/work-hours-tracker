@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/OumaimaZerouali/work-hours-tracker/static/css/main.ea3dc6bf.css",
-    "main.js": "/OumaimaZerouali/work-hours-tracker/static/js/main.42848cf5.js",
-    "static/js/453.dadfc7fa.chunk.js": "/OumaimaZerouali/work-hours-tracker/static/js/453.dadfc7fa.chunk.js",
-    "index.html": "/OumaimaZerouali/work-hours-tracker/index.html",
-    "main.ea3dc6bf.css.map": "/OumaimaZerouali/work-hours-tracker/static/css/main.ea3dc6bf.css.map",
-    "main.42848cf5.js.map": "/OumaimaZerouali/work-hours-tracker/static/js/main.42848cf5.js.map",
-    "453.dadfc7fa.chunk.js.map": "/OumaimaZerouali/work-hours-tracker/static/js/453.dadfc7fa.chunk.js.map"
+    "main.css": "/OumaimaZerouali/work-hours-tracker//static/css/main.ea3dc6bf.css",
+    "main.js": "/OumaimaZerouali/work-hours-tracker//static/js/main.ab7f7b00.js",
+    "static/js/453.dadfc7fa.chunk.js": "/OumaimaZerouali/work-hours-tracker//static/js/453.dadfc7fa.chunk.js",
+    "index.html": "/OumaimaZerouali/work-hours-tracker//index.html",
+    "main.ea3dc6bf.css.map": "/OumaimaZerouali/work-hours-tracker//static/css/main.ea3dc6bf.css.map",
+    "main.ab7f7b00.js.map": "/OumaimaZerouali/work-hours-tracker//static/js/main.ab7f7b00.js.map",
+    "453.dadfc7fa.chunk.js.map": "/OumaimaZerouali/work-hours-tracker//static/js/453.dadfc7fa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ea3dc6bf.css",
-    "static/js/main.42848cf5.js"
+    "static/js/main.ab7f7b00.js"
   ]
 }
